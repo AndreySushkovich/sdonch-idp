@@ -12,7 +12,7 @@ public class HomeServlet extends HttpServlet {
 	private static final long serialVersionUID = 4234153507302952345L;
 
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
-			throws IOException{
+			throws IOException {
 		PrintWriter out = response.getWriter();
 		out.println("<html>");
 		out.println("<body>");
