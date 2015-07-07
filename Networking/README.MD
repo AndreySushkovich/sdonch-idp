@@ -8,5 +8,5 @@ The application will consist of 2 screens: "Products" (simple table with product
 
 State is to be persisted on the client side. jQuery is prohibited (pure JavaScript without any frameworks).
 
-#### Questions
+##### Questions
 1. How would you send the information about selected products to server?
