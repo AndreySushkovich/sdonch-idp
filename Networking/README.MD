@@ -6,7 +6,7 @@ Implement simple shopping cart.
 
 The application will consist of 2 screens: "Products" (simple table with product names and "Buy" links, "Check out" submit button) and "Order Confirmation" (appears after user has pressed "Check out" button on the previous screen; displays contents of the shopping cart).
 
-*NOTES*
+##### NOTES
 State is to be persisted on the client side. jQuery is prohibited (pure JavaScript without any frameworks).
 
 ##### Questions
@@ -23,7 +23,7 @@ Enhance previously developed application with new functionality: Add "Login" scr
 2. Go to "Home" screen (list of products) if user entered "sergii" as login and "sdonch$2015" as password (both can be hardcoded wherever convenient). Stay on "Login" page otherwise.
 3. If user pressed "Logout" link, consider the user anonymous and redirect to "Login" screen.
 
-*NOTES*
+##### NOTES
 Don't use any third-party security frameworks, nor servlet filters.
 
 ##### Questions
