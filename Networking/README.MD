@@ -9,6 +9,9 @@ The application will consist of 2 screens: "Products" (simple table with product
 ##### NOTES
 State is to be persisted on the client side. jQuery is prohibited (pure JavaScript without any frameworks).
 
+##### Hint
+Use cookies for storing state on "Products" page and loading it on "Order Confirmation."
+
 ##### Questions
 1. How would you send the information about selected products to server?
 
@@ -26,6 +29,9 @@ Enhance previously developed application with new functionality: Add "Login" scr
 ##### NOTES
 Don't use any third-party security frameworks, nor servlet filters.
 
+##### Hint
+Use HttpSession for storing credentials. Check them on server side each time user opens any page. 
+
 ##### Questions
-1. What other ways of implementing authentication do you know?
-2. Please demonstrate what is JSESSIONID using the developed application. Explain why it's needed and how it's used.
+1. What other ways (even practically unsuitable) of implementing authentication do you know?
+2. **Please demonstrate what is JSESSIONID using the developed application. Explain why it's needed and how it's used.**
