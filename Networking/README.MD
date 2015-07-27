@@ -1,20 +1,17 @@
 ### HTTP: Stateful or stateless?
 Please demonstrate the answer to this question by making the necessary changes to the web module.
 
+**Due date:** 3 Aug 2015
+
 ### Persisting state on client side
 Implement simple shopping cart.
 
 The application will consist of 2 screens: "Products" (simple table with product names and "Buy" links, "Check out" submit button) and "Order Confirmation" (appears after user has pressed "Check out" button on the previous screen; displays contents of the shopping cart).
 
+**Due date:** 10 Aug 2015
+
 ##### NOTES
-State is to be persisted on the client side. jQuery is prohibited (pure JavaScript without any frameworks).
-
-##### Hint
-Use cookies for storing state on "Products" page and loading it on "Order Confirmation."
-
-##### Questions
-1. How would you send the information about selected products to server?
-
+Please create & load cookies on client side (JS).
 
 ### Persisting state on both server and client side
 Implement basic authentication mechanism.
@@ -32,6 +29,11 @@ Don't use any third-party security frameworks, nor servlet filters.
 ##### Hint
 Use HttpSession for storing credentials. Check them on server side each time user opens any page. 
 
+**Due date:** 3 Aug 2015
+
 ##### Questions
 1. What other ways (even practically unsuitable) of implementing authentication do you know?
 2. **Please demonstrate what is JSESSIONID using the developed application. Explain why it's needed and how it's used.**
+3. What is an HttpSession? When is it created? What is the scope of a session? Which object is it related to in a servlet container?
+4. Imagine we created a session in MyServlet. Will this session be visible in HomeServlet inside of the same web app? In AuthServlet inside of another web app (same servlet container)? In any servlet outside of that container?
+5. In the developed app, can you use HttpRequest instead of HttpSession?
