@@ -37,3 +37,24 @@ Use HttpSession for storing credentials. Check them on server side each time use
 3. What is an HttpSession? When is it created? What is the scope of a session? Which object is it related to in a servlet container?
 4. Imagine we created a session in MyServlet. Will this session be visible in HomeServlet inside of the same web app? In AuthServlet inside of another web app (same servlet container)? In any servlet outside of that container?
 5. In the developed app, can you use HttpRequest instead of HttpSession?
+
+### Concluding Questions
+
+**Please write down your answers here under "A" mark and be prepared to answer them at our 1:1 as well.**
+
+**Due date:** August 31, 2015
+
+**Q:** When exactly is an HTTP session created?  
+**A:**
+
+**Q:** What is the format of an HTTP response?  
+**A:**
+
+**Q:** How can the server set a cookie?  
+**A:**
+
+**Q:** How does request.getSession() work internally? (Please have a look at its source code.)  
+**A:**
+
+**Q:** How does it know that there is already a session associated with that particular client?  
+**A:**
