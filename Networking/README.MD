@@ -45,13 +45,23 @@ Use HttpSession for storing credentials. Check them on server side each time use
 **Due date:** August 31, 2015
 
 **Q:** When exactly is an HTTP session created?  
-**A:**
+**A:** A HttpSession is created when calling request.getSession() or request.getSession(true). JSP by default automatically create a session. This behaviour can be disabled by using: <%@ page session="false">
 
 **Q:** What is the format of an HTTP response?  
-**A:**
+**A:** Response: 
+- Status line;
+- General headers;
+- Response headers;
+- Entity headers;
+- Message body (optionally);
 
 **Q:** How can the server set a cookie?  
-**A:**
+**A:** A cookie that is set by the server, will be sent to the client in a response. The server only sends the cookie when it is explicitly set or changed, while the client sends the cookie on each request.
+String headerName=null;
+for (int i=1; (headerName = uc.getHeaderFieldKey(i))!=null; i++) {
+ 	if (headerName.equals("Set-Cookie")) {                  
+	String cookie = urlConn.getHeaderField(i);               
+	...   
 
 **Q:** How does request.getSession() work internally? (Please have a look at its source code.)  
 **A:**
