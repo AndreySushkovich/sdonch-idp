@@ -57,14 +57,16 @@ Use HttpSession for storing credentials. Check them on server side each time use
 
 **Q:** How can the server set a cookie?  
 **A:** A cookie that is set by the server, will be sent to the client in a response. The server only sends the cookie when it is explicitly set or changed, while the client sends the cookie on each request.
+```java
 String headerName=null;
 for (int i=1; (headerName = uc.getHeaderFieldKey(i))!=null; i++) {
  	if (headerName.equals("Set-Cookie")) {                  
 	String cookie = urlConn.getHeaderField(i);               
 	...   
-
+```
 **Q:** How does request.getSession() work internally? (Please have a look at its source code.)  
 **A:**
 
 **Q:** How does it know that there is already a session associated with that particular client?  
-**A:**
+**A:** 
+![alt tag](http://machinesaredigging.com/blog-mad/wp-content/uploads/2013/10/how_does_a_session_work-1024x724.jpg)
