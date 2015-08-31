@@ -65,8 +65,32 @@ for (int i=1; (headerName = uc.getHeaderFieldKey(i))!=null; i++) {
 	...   
 ```
 **Q:** How does request.getSession() work internally? (Please have a look at its source code.)  
-**A:**
-
+**A:** 
+```java     
+    /**
+     * Returns the current <code>HttpSession</code> associated with this
+     * request or, if there is no current session and <code>create</code> is
+     * true, returns a new session.
+     *
+     * <p>If <code>create</code> is <code>false</code> and the request has no
+     * valid <code>HttpSession</code>, this method returns <code>null</code>.
+     *
+     * <p>To make sure the session is properly maintained, you must call this
+     * method before the response is committed. If the container is using cookies
+     * to maintain session integrity and is asked to create a new session
+     * when the response is committed, an IllegalStateException is thrown.
+     *
+     * @param create <code>true</code> to create a new session for this request
+     * if necessary; <code>false</code> to return <code>null</code> if there's
+     * no current session
+     *
+     * @return the <code>HttpSession</code> associated with this request or
+     * <code>null</code> if <code>create</code> is <code>false</code> and the
+     * request has no valid session
+     *
+     * @see #getSession()
+     */
+```
 **Q:** How does it know that there is already a session associated with that particular client?  
 **A:** 
 ![alt tag](http://machinesaredigging.com/blog-mad/wp-content/uploads/2013/10/how_does_a_session_work-1024x724.jpg)
