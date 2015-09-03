@@ -94,3 +94,21 @@ for (int i=1; (headerName = uc.getHeaderFieldKey(i))!=null; i++) {
 **Q:** How does it know that there is already a session associated with that particular client?  
 **A:** 
 ![alt tag](http://machinesaredigging.com/blog-mad/wp-content/uploads/2013/10/how_does_a_session_work-1024x724.jpg)
+
+### REST
+Please read recommended literature and answer the questions below.
+
+**Due date:** Sep 7, 2015
+
+##### Questions
+
+1. What is REST?
+2. What are the alternatives? For one of the named technologies, explain how it differs from REST.
+3. Is your "Shopping Cart" application RESTful? Why? Which aspects of it need to be revised to comply?
+4. What is called the RESTful API? Give an example. RESTful API Implementation?
+
+##### READING
+
+| Resource      | Comment       |
+| ------------- | ------------- |
+| http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm  | A chapter from Roy Fielding's doctoral dissertation, *"Architectural Styles and the Design of Network-based Software Architectures."* (Roy Fielding is an American computer scientist, one of the principal authors of the HTTP specification, an authority on computer network architecture and co-founder of the Apache HTTP Server project.  |
