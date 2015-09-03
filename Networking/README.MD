@@ -5,6 +5,12 @@ Please demonstrate the answer to this question by making the necessary changes t
 
 **Due date:** 3 Aug 2015
 
+##### READING
+
+| Resource      | Comment       |
+| ------------- | ------------- |
+| http://tools.ietf.org/html/rfc7230|*"Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing,"* IETF standard |
+
 ### Persisting state on client side
 Implement simple shopping cart.
 
@@ -14,6 +20,14 @@ The application will consist of 2 screens: "Products" (simple table with product
 
 ##### NOTES
 Please create & load cookies on client side (JS).
+
+##### READING
+
+| Resource      | Comment       |
+| ------------- | ------------- |
+| https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies | A short overview on MDN |
+| http://www.nczonline.net/blog/2009/05/05/http-cookies-explained/ | A good article by Nicholas Zakas |
+| http://tools.ietf.org/html/rfc6265 | *"HTTP State Management Mechanism,"* IETF standard |
 
 ### Persisting state on both server and client side
 Implement basic authentication mechanism.
@@ -32,6 +46,12 @@ Don't use any third-party security frameworks, nor servlet filters.
 Use HttpSession for storing credentials. Check them on server side each time user opens any page. 
 
 **Due date:** 3 Aug 2015
+
+##### READING
+
+| Resource      | Comment       |
+| ------------- | ------------- |
+| TODO | TODO |
 
 ##### Questions
 1. What other ways (even practically unsuitable) of implementing authentication do you know?
