@@ -1,3 +1,5 @@
+# Chapter 1. HTTP: Persisting state
+
 ### HTTP: Stateful or stateless?
 Please demonstrate the answer to this question by making the necessary changes to the web module.
 
@@ -94,6 +96,8 @@ for (int i=1; (headerName = uc.getHeaderFieldKey(i))!=null; i++) {
 **Q:** How does it know that there is already a session associated with that particular client?  
 **A:** 
 ![alt tag](http://machinesaredigging.com/blog-mad/wp-content/uploads/2013/10/how_does_a_session_work-1024x724.jpg)
+
+# Chapter 2. Architecture
 
 ### REST
 Please read recommended literature and answer the questions below.
