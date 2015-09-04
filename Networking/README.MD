@@ -135,4 +135,4 @@ Please read recommended literature and answer the questions below.
 
 | Resource      | Comment       |
 | ------------- | ------------- |
-| http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm  | A chapter from Roy Fielding's doctoral dissertation, *"Architectural Styles and the Design of Network-based Software Architectures."* (Roy Fielding is an American computer scientist, one of the principal authors of the HTTP specification, an authority on computer network architecture and co-founder of the Apache HTTP Server project.  |
+| http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm  | A chapter from Roy Fielding's doctoral dissertation, *"Architectural Styles and the Design of Network-based Software Architectures."* (Roy Fielding is an American computer scientist, one of the principal authors of the HTTP specification, an authority on computer network architecture and co-founder of the Apache HTTP Server project.) |
