@@ -136,3 +136,10 @@ Please read recommended literature and answer the questions below.
 | Resource      | Comment       |
 | ------------- | ------------- |
 | http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm  | A chapter from Roy Fielding's doctoral dissertation, *"Architectural Styles and the Design of Network-based Software Architectures."* (Roy Fielding is an American computer scientist, one of the principal authors of the HTTP specification, an authority on computer network architecture and co-founder of the Apache HTTP Server project.) |
+
+1. Client-server technology
+2. Without state
+3. Cache
+4. Multi-stage system
+5. Code request (optional)
+6. Single interface
