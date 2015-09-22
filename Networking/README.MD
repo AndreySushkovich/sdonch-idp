@@ -148,3 +148,28 @@ Please read recommended literature and answer the questions below.
 SOAP.
 Nope.
 RESTful API is a simple Web service implemented using HTTP and REST principles. Twitter api.
+
+### JAX-RS and Jersey
+1. Please read recommended literature and answer the questions below
+2. Implement the task
+
+**Due date:** Oct 2, 2015
+
+##### Questions
+
+1. What is the difference between JAX-RS and Jersey? Are they essentially the same thing?
+
+##### Tasks
+
+Implement RESTful Employee directory (Web application based on Jersey). The user can view all employees, add/view/update/dismiss a particular employee.
+There are 2 screens: "Directory" (the list of all employees) and "Personal Info" (for each employee).
+You can find mock-ups here: https://moqups.com/andrey.sushkovich@gmail.com/so714X4L/
+Don't hesitate to ask your questions if any.
+
+##### READING
+
+| Resource      | Comment       |
+| ------------- | ------------- |
+| https://en.wikipedia.org/wiki/Java_API_for_RESTful_Web_Services | Wiki page |
+| https://en.wikipedia.org/wiki/Project_Jersey | Wiki page |
+| https://jersey.java.net/documentation/latest/index.html | Official Jersey User Guide |
