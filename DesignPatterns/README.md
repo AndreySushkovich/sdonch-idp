@@ -4,5 +4,5 @@ Please implement the following tasks.
 
 # Creational Patterns
 
-1. **Factory Method.** Depending on the value of a String parameter ("doc", "docx", "xls", "xlsx") you need to export (convert) the file of the corresponding format to HTML.
+1. **Factory Method.** Depending on the value of a String parameter ("doc", "docx", "xls", "xlsx") you need to export (convert) the file of the corresponding format to HTML. (Can it be done without factory methods? How?)
 2. **Abstract Factory.** *In progress*
