@@ -163,9 +163,10 @@ RESTful API is a simple Web service implemented using HTTP and REST principles. 
 
 ##### Tasks
 
-Implement RESTful Employee directory (Web application based on Jersey). The user can view all employees, add/view/update/dismiss a particular employee.
-There are 2 screens: "Directory" (the list of all employees) and "Personal Info" (for each employee).
+Implement RESTful Employee directory (Web application based on Jersey). The user can view all employees, add/view/update/dismiss a particular employee. There are 2 screens: "Directory" (the list of all employees) and "Personal Info" (for each employee).
+
 You can find mock-ups here: https://moqups.com/andrey.sushkovich@gmail.com/so714X4L/
+
 Don't hesitate to ask your questions if any.
 
 ##### READING
