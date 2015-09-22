@@ -149,6 +149,8 @@ SOAP.
 Nope.
 RESTful API is a simple Web service implemented using HTTP and REST principles. Twitter api.
 
+# Chapter 3. Frameworks and Libraries
+
 ### JAX-RS and Jersey
 1. Please read recommended literature and answer the questions below
 2. Implement the task
