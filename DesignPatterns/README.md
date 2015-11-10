@@ -1,4 +1,4 @@
-*Remember: The point of these problems is not have a working business-wise piece of code, but to write the code as extensible, readable and maintainable as possible which often times implies the usage of design patterns. Still the programs must be demonstratable (may well be console apps).*
+*Remember: The point of these problems is not to have a working business-wise piece of code, but to write the code as extensible, readable and maintainable as possible which often times implies the usage of design patterns. Still the programs must be demonstratable (may well be console apps).*
 
 Please implement the following tasks.
 
