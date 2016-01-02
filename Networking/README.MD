@@ -1,70 +1,34 @@
 # Chapter 1. HTTP: Persisting state
 
 ### HTTP: Stateful or stateless?
-Please demonstrate the answer to this question by making the necessary changes to the web module.
 
 **Due date:** 3 Aug 2015
 
-##### READING
-
-| Resource      | Comment       |
-| ------------- | ------------- |
-| http://tools.ietf.org/html/rfc7230|*"Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing,"* IETF standard |
-
 ### Persisting state on client side
-Implement simple shopping cart.
+
+https://github.com/sdonchenko/IdpTask
 
 The application will consist of 2 screens: "Products" (simple table with product names and "Buy" links, "Check out" submit button) and "Order Confirmation" (appears after user has pressed "Check out" button on the previous screen; displays contents of the shopping cart).
 
 **Due date:** 10 Aug 2015
 
-##### NOTES
-Please create & load cookies on client side (JS).
-
-##### READING
-
-| Resource      | Comment       |
-| ------------- | ------------- |
-| https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies | A short overview on MDN |
-| http://www.nczonline.net/blog/2009/05/05/http-cookies-explained/ | A good article by Nicholas Zakas |
-| http://tools.ietf.org/html/rfc6265 | *"HTTP State Management Mechanism,"* IETF standard |
-
 ### Persisting state on both server and client side
-Implement basic authentication mechanism.
+
+https://github.com/sdonchenko/IdpTask
 
 Enhance previously developed application with new functionality: Add "Login" screen (initial) and "Logout" link (present on every screen except "Login").
 
 ##### Acceptance Criteria
+
+https://github.com/sdonchenko/IdpTask
+
 1. Redirect to "Login" screen whenever the user is discovered to be anonymous.
 2. Go to "Home" screen (list of products) if user entered "sergii" as login and "sdonch$2015" as password (both can be hardcoded wherever convenient). Stay on "Login" page otherwise.
 3. If user pressed "Logout" link, consider the user anonymous and redirect to "Login" screen.
 
-##### NOTES
-Don't use any third-party security frameworks, nor servlet filters.
-
-##### Hint
-Use HttpSession for storing credentials. Check them on server side each time user opens any page. 
-
 **Due date:** 3 Aug 2015
 
-##### READING
-
-| Resource      | Comment       |
-| ------------- | ------------- |
-| TODO | TODO |
-
-##### Questions
-1. What other ways (even practically unsuitable) of implementing authentication do you know?
-2. **Please demonstrate what is JSESSIONID using the developed application. Explain why it's needed and how it's used.**
-3. What is an HttpSession? When is it created? What is the scope of a session? Which object is it related to in a servlet container?
-4. Imagine we created a session in MyServlet. Will this session be visible in HomeServlet inside of the same web app? In AuthServlet inside of another web app (same servlet container)? In any servlet outside of that container?
-5. In the developed app, can you use HttpRequest instead of HttpSession?
-
 ### Concluding Questions
-
-**Please write down your answers here under "A" mark and be prepared to answer them at our 1:1 as well.**
-
-**Due date:** August 31, 2015
 
 **Q:** When exactly is an HTTP session created?  
 **A:** A HttpSession is created when calling request.getSession() or request.getSession(true). JSP by default automatically create a session. This behaviour can be disabled by using: <%@ page session="false">
@@ -117,10 +81,11 @@ for (int i=1; (headerName = uc.getHeaderFieldKey(i))!=null; i++) {
 **A:** 
 ![alt tag](http://machinesaredigging.com/blog-mad/wp-content/uploads/2013/10/how_does_a_session_work-1024x724.jpg)
 
+**Due date:** August 31, 2015
+
 # Chapter 2. Architecture
 
 ### REST
-Please read recommended literature and answer the questions below.
 
 **Due date:** Sep 7, 2015
 
@@ -131,12 +96,6 @@ Please read recommended literature and answer the questions below.
 3. Is your "Shopping Cart" application RESTful? Why? Which aspects of it need to be revised to comply?
 4. What is called the RESTful API? Give an example. RESTful API Implementation?
 
-##### READING
-
-| Resource      | Comment       |
-| ------------- | ------------- |
-| http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm  | A chapter from Roy Fielding's doctoral dissertation, *"Architectural Styles and the Design of Network-based Software Architectures."* (Roy Fielding is an American computer scientist, one of the principal authors of the HTTP specification, an authority on computer network architecture and co-founder of the Apache HTTP Server project.) |
-
 **A:**
 1. Client-server technology
 2. Without state
@@ -145,9 +104,9 @@ Please read recommended literature and answer the questions below.
 5. Code request (optional)
 6. Single interface
 
-SOAP.
-Nope.
-RESTful API is a simple Web service implemented using HTTP and REST principles. Twitter api.
+2. SOAP.
+3. Nope.
+4. RESTful API is a simple Web service implemented using HTTP and REST principles. Twitter api.
 
 # Chapter 3. Frameworks and Libraries
 
@@ -156,23 +115,3 @@ RESTful API is a simple Web service implemented using HTTP and REST principles. 
 2. Implement the task
 
 **Due date:** Oct 2, 2015
-
-##### Questions
-
-1. What is the difference between JAX-RS and Jersey? Are they essentially the same thing?
-
-##### Tasks
-
-Implement RESTful Employee directory (Web application based on Jersey). The user can view all employees, add/view/update/dismiss a particular employee. There are 2 screens: "Directory" (the list of all employees) and "Personal Info" (for each employee).
-
-You can find mock-ups here: https://moqups.com/andrey.sushkovich@gmail.com/so714X4L/
-
-Don't hesitate to ask your questions if any.
-
-##### READING
-
-| Resource      | Comment       |
-| ------------- | ------------- |
-| https://en.wikipedia.org/wiki/Java_API_for_RESTful_Web_Services | Wiki page |
-| https://en.wikipedia.org/wiki/Project_Jersey | Wiki page |
-| https://jersey.java.net/documentation/latest/index.html | Official Jersey User Guide |
