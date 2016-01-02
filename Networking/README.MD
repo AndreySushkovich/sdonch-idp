@@ -97,21 +97,18 @@ for (int i=1; (headerName = uc.getHeaderFieldKey(i))!=null; i++) {
 4. What is called the RESTful API? Give an example. RESTful API Implementation?
 
 **A:**
-1. Client-server technology
-2. Without state
-3. Cache
-4. Multi-stage system
-5. Code request (optional)
-6. Single interface
-
-2. SOAP.
-3. Nope.
+1. //Client-server technology
+//Without state
+//Cache
+//Multi-stage system
+//Code request (optional)
+//Single interface
+2. SOAP
+3. Nope
 4. RESTful API is a simple Web service implemented using HTTP and REST principles. Twitter api.
 
 # Chapter 3. Frameworks and Libraries
 
 ### JAX-RS and Jersey
-1. Please read recommended literature and answer the questions below
-2. Implement the task
 
 **Due date:** Oct 2, 2015
