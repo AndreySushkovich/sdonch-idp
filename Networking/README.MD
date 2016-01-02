@@ -102,7 +102,7 @@ for (int i=1; (headerName = uc.getHeaderFieldKey(i))!=null; i++) {
 //Cache
 //Multi-stage system
 //Code request (optional)
-//Single interface
+//Single interface     
 2. SOAP
 3. Nope
 4. RESTful API is a simple Web service implemented using HTTP and REST principles. Twitter api.
