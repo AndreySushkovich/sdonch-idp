@@ -20,8 +20,6 @@ Enhance previously developed application with new functionality: Add "Login" scr
 
 ##### Acceptance Criteria
 
-https://github.com/sdonchenko/IdpTask
-
 1. Redirect to "Login" screen whenever the user is discovered to be anonymous.
 2. Go to "Home" screen (list of products) if user entered "sergii" as login and "sdonch$2015" as password (both can be hardcoded wherever convenient). Stay on "Login" page otherwise.
 3. If user pressed "Logout" link, consider the user anonymous and redirect to "Login" screen.
